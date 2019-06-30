@@ -3,6 +3,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Example_2 {
+    //Когда перегруженный метод, то действует ранее связывание. То есть "c" относится к Collection
     public static void main(String[] args) {
         Collection c=new HashSet();
         print(c);
